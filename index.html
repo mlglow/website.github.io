@@ -51,6 +51,7 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="" href="#home-page">home</a></li>
+                                        <li><a href="#industries">Industries</a></li>
                                         <li><a href="#services">Services</a></li>
                                         <li><a href="#popular-projects">Products</a></li>
                                         <li><a href="#popular-courses">Blog</a></li>
@@ -97,6 +98,7 @@
 
                             <!-- <a href="#popular-projects" class="boxed_btn">Industries</a> -->
                             <a href="#popular-projects" class="boxed_btn">Our Products</a>
+                            <a href="#services" class="boxed_btn">Our Services</a>
                         </div>
                     </div>
                 </div>
@@ -108,48 +110,199 @@
 
 
 
+
+
+
+
+
     <!-- <span style="display:block; margin-top:+200px;"></span> -->
 
-    <!-- services_area_start -->
-    <div id="services" class="about_area">
+
+
+
+
+    <!-- industries_start -->
+    <div id="industries" class="popular_courses">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
-                        <h3>Core Services </h3>
+                        <h3> Industries</h3>
+                        <p>
+                            Our projects span across various sectors: Medical, Aeronautics, Aerospace & Education!</p>
                     </div>
                 </div>
             </div>
-
-            <!-- first row -->
             <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="single_about_info">
-                        <img src="img/services/poc.png" controls autoplay loop alt="">
+                <div class="col-xl-12">
+                    <div class="course_nav">
+                        <nav>
+                            <ul class="nav" id="myTab" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" id="home-tab" data-toggle="tab"
+                                        href="#home" role="tab" aria-controls="home" aria-selected="true">All
+                                        Industries</a></li>
+                                <li class="nav-item"><a class="nav-link" id="medical-tab" data-toggle="tab"
+                                        href="#medical" role="tab" aria-controls="medical"
+                                        aria-selected="false">Medical</a></li>
+                                <li class="nav-item"><a class="nav-link" id="aeronautics-tab" data-toggle="tab"
+                                        href="#aeronautics" role="tab" aria-controls="aeronautics"
+                                        aria-selected="false">Aeronautics/Aerospace</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" id="aerospace-tab" data-toggle="tab" href="#aerospace" role="tab" aria-controls="aerospace" aria-selected="false">Aerospace</a></li> -->
+                                <li class="nav-item"><a class="nav-link" id="education-tab" data-toggle="tab"
+                                        href="#education" role="tab" aria-controls="education"
+                                        aria-selected="false">Education</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-7">
-                    <img src="img/services/mvp.png" controls autoplay loop alt="">
-                </div>
-            </div>
-            <div <br> </br> </div>
-            <div <br> </br> </div>
-            <div <br> </br> </div>
-
-            <!-- second row -->
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="single_about_info">
-                        <img src="img/services/ffp.png" controls autoplay loop alt="">
-                    </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-7">
-                    <img src="img/services/ai.png" controls autoplay loop alt="">
                 </div>
             </div>
         </div>
+
+        <div class="all_courses">
+            <div class="container">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_covid.html"><img src="img/industries/covid.png"
+                                                alt="""></a></div>
+                                    <div class="courses_info"><span>Medical</span>
+                                        <h3><a href="#">AI based Covid-19 Diagnosis Software </a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_ct_mri.html"><img src="img/industries/doctor.jpg"
+                                                alt="" ></a></div>
+                                    <div class="courses_info"><span>Medical</span>
+                                        <h3><a href="#">AI for Medical Sciences and HealthCare </a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_pred_main.html"><img
+                                                src="img/industries/pred-main.png" alt=""></a></div>
+                                    <div class="courses_info"><span>Aeronautics/Aerospace</span>
+                                        <h3><a href="#">AI based Aircraft Predictive Maintenance Software</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_edu.html"><img src="img/industries/edu.png"
+                                                alt=""></a></div>
+                                    <div class="courses_info"><span>Education</span>
+                                        <h3><a href="#">AI Mentoring System for Universities</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- individual tab specific ones -->
+                    <div class="tab-pane fade" id="medical" role="tabpanel" aria-labelledby="medical-tab">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_covid.html"><img src="img/projects/covid.png"
+                                                alt=""></a></div>
+                                    <div class="courses_info"><span>Medical</span>
+                                        <h3><a href="#">AI based Covid-19 Diagnosis Software </a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_ct_mri.html"><img src="img/projects/doctor.jpg"
+                                                alt=""></a></div>
+                                    <div class="courses_info"><span>Medical</span>
+                                        <h3><a href="#">AI for Medical Sciences and HealthCare</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="aeronautics" role="tabpanel" aria-labelledby="aeronautics-tab">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_pred_main.html"><img
+                                                src="img/projects/pred-main.png" alt=""></a></div>
+                                    <div class="courses_info"><span>Aeronautics/Aerospace</span>
+                                        <h3><a href="#">Artificial Intelligence and Machine Learning</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single_courses">
+                                    <div class="thumb"><a href="project_edu.html"><img src="img/projects/edu.png"
+                                                alt=""></a></div>
+                                    <div class="courses_info"><span>Education</span>
+                                        <h3><a href="#">AI Mentoring System for Universities</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <!-- services_area_end -->
+    <!-- industries_end -->
+
+
+
+
+
+
+        <!-- services_area_start -->
+        <div id="services" class="about_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title text-center mb-100">
+                            <h3>Core Services </h3>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- first row -->
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="single_about_info">
+                            <img src="img/services/poc.png" controls autoplay loop alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 offset-xl-1 col-lg-7">
+                        <img src="img/services/mvp.png" controls autoplay loop alt="">
+                    </div>
+                </div>
+                <div <br> </br> </div>
+                <div <br> </br> </div>
+                <div <br> </br> </div>
+    
+                <!-- second row -->
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="single_about_info">
+                            <img src="img/services/ffp.png" controls autoplay loop alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 offset-xl-1 col-lg-7">
+                        <img src="img/services/ai.png" controls autoplay loop alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- services_area_end -->
 
 
 
@@ -945,6 +1098,7 @@
                     </div>
                 </div>
 
+
                 <!-- our_team_start -->
                 <div class="our_courses">
                     <div class="container">
@@ -956,116 +1110,132 @@
                             </div>
                         </div>
                         <div class="row">
+                            <!-- Block 1 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon">
                                         <img src="img/banner/selvahead.jpg" alt="Data Scientist Image" width="100"
                                             height="100">
                                     </div>
                                     <h3>Selvakumar Ulaganathan</h3>
                                     <h4>Founder</h4>
-                                    <p> He is the Founder of MLGLow. He is an expert in development of end-to-end
-                                        Artificial Intelligence and
-                                        Machine Learning solutions to solve business problems</p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <p>He is an expert in development of end-to-end
+                                        Artificial Intelligence and Machine Learning solutions to solve business
+                                        problems.</p>
+                                    <a href="https://be.linkedin.com/in/selvakumar-ulaganathan-93694826"
+                                        class="btn btn-info" style="margin-top: auto;">Linkedin</a>
                                 </div>
                             </div>
+                            <!-- Block 2 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon blue">
-                                        <img src="img/banner/avathar_m.jpg"
-                                            alt="Dr. A. Muruganandham Image" width="100" height="100">
+                                        <img src="img/banner/avathar_m.jpg" alt="Dr. A. Muruganandham Image" width="100"
+                                            height="100">
                                     </div>
                                     <h3>Dr. A. Muruganandham</h3>
                                     <h4>Advisor</h4>
-                                    <p>He is an expert in development of end-to-end
-                                        Artificial Intelligence and
-                                        Machine Learning solutions to solve business problems. </p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <p>He is an expert in business development and has more than 30 years of experiences
+                                        in software development.</p>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
                                 </div>
                             </div>
+                            <!-- Block 3 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon">
-                                        <img src="img/banner/avathar_m.jpg"
-                                            alt="Dr. T. Senthilkumaran Image" width="100" height="100">
+                                        <img src="img/banner/avathar_m.jpg" alt="Dr. T. Senthilkumaran Image"
+                                            width="100" height="100">
                                     </div>
                                     <h3>Dr. T. Senthilkumaran</h3>
                                     <h4>Advisor</h4>
-                                    <p>We deliver solutions in an extremely timely manner. We are poised to speed up
-                                        your AI projects with our extreme expertise.</p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <p>He is an expert in human resource management & business development.</p>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
                                 </div>
                             </div>
+                            <!-- Block 4 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon gradient">
-                                        <img src="img/banner/likitha.png"
-                                            alt="Likitha Shree K  Image" width="100" height="100">
+                                        <img src="img/banner/likitha.png" alt="Likitha Shree K Image" width="100"
+                                            height="100">
                                     </div>
-                                    <h3>Likitha Shree K </h3>
+                                    <h3>Likitha Shree K</h3>
                                     <h4>Data Scientist</h4>
-                                    <p>Passionate Data Scientist with strong background in statistical analysis, Machine
+                                    <p>Passionate Data Scientist with strong background in Statistical Analysis, Machine
                                         Learning, and data-driven decision making.</p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
                                 </div>
                             </div>
-
-
+                            <!-- Block 5 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon gradient">
-                                        <img src="img/banner/kamali.png"
-                                            alt="Kamali Premraj Image" width="100" height="100">
+                                        <img src="img/banner/kamali.png" alt="Kamali Premraj Image" width="100"
+                                            height="100">
                                     </div>
                                     <h3>Kamali Premraj</h3>
                                     <h4>Data Scientist</h4>
-                                    <p>Enthusiastic Data Scientist with specialities in Python, Machine Learning,
+                                    <p>Enthusiastic Data Scientist with specialties in Python, Machine Learning,
                                         Computer Vision, etc.</p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
                                 </div>
                             </div>
-
+                            <!-- Block 6 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon gradient">
-                                        <img src="img/banner/abinesh.png"
-                                            alt="Abinesh Image" width="100" height="100">
+                                        <img src="img/banner/abinesh.png" alt="Abinesh Image" width="100" height="100">
                                     </div>
                                     <h3>Abinesh M</h3>
                                     <h4>Data Scientist</h4>
-                                    <p>Aeronautical Engineer with a strong passion for data science and excels in
-                                        Problem Solving and Analyzing complex data sets to derive valuable insights.</p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <p>Aeronautical Engineer with a strong passion for data science. He excels in NLP,
+                                        LLM and Edge AI applications.</p>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
                                 </div>
                             </div>
-
+                            <!-- Block 7 -->
                             <div class="col-xl-3 col-md-6 col-lg-6">
                                 <div class="single_course text-center"
-                                    style="height: 500px; width: 250px; overflow: auto;">
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
                                     <div class="icon gradient">
-                                        <img src="img/banner/avathar_m (2).jpg"
-                                            alt="Vimali Premraj Image" width="100" height="100">
+                                        <img src="img/banner/avathar_m (2).jpg" alt="Vimali Premraj Image" width="100"
+                                            height="100">
                                     </div>
                                     <h3>Vimali Premraj</h3>
-                                    <h4>Data Scientist</h4>
-                                    <p>Passionate Data Science Student: Dedecated to unlocking the potential of data
+                                    <h4>Data Science Intern</h4>
+                                    <p>She is dedicated to unlocking the potential of data
                                         through analytical insights and Machine Learning.</p>
-                                    <a href="#" class="btn btn-info">More info</a>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
                                 </div>
                             </div>
 
+                            <!-- Block 8 -->
+                            <div class="col-xl-3 col-md-6 col-lg-6">
+                                <div class="single_course text-center"
+                                    style="height: 500px; width: 250px; overflow: auto; display: flex; flex-direction: column;">
+                                    <div class="icon gradient">
+                                        <img src="img/banner/andru.jpeg" alt="Andru Image" width="100" height="100">
+                                    </div>
+                                    <h3>Andru Nirmal Kumar</h3>
+                                    <h4>HR</h4>
+                                    <p>Recruitment manager of our Team.</p>
+                                    <a href="#" class="btn btn-info" style="margin-top: auto;">More info</a>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
                 </div>
                 <!-- our_team_end -->
+
+
 
 
             </div>
@@ -1087,8 +1257,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="testmonial_text text-center">
-                                <div class="author_img"><img
-                                        src="img\testmonial\vtu.png" alt="">
+                                <div class="author_img"><img src="img\testmonial\vtu.png" alt="">
                                 </div>
                                 <p>"Delivered a government funded Covid-19 SAAS project <br> effectively on time with
                                     extreme efficiency!"</p>
@@ -1103,8 +1272,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="testmonial_text text-center">
-                                <div class="author_img"><img
-                                        src="img\testmonial\acs.png" alt="">
+                                <div class="author_img"><img src="img\testmonial\acs.png" alt="">
                                 </div>
                                 <p>"Had a great collaboration in delivering a government funded project <br> Extremely
                                     Reliable and Collaborative!"</p>
