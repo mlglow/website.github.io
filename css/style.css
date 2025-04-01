@@ -6657,3 +6657,10 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#journals .section_title {
+  text-align: center !important;   /* Ensure text is centered */
+  display: block;                  /* Ensure block-level display */
+  margin: 0 auto;                  /* Center the block */
+  width: 100%;                     /* Take the full width */
+}
