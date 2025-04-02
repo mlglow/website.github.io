@@ -315,3 +315,55 @@ mailChimp();
         });
 
 })(jQuery);	
+
+// Client Logo Carousel
+$(document).ready(function(){
+  $('.logo-carousel-container').owlCarousel({
+      loop: true,
+      margin: 30,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      autoplaySpeed: 1000,
+      nav: false,
+      dots: false,
+      responsive: {
+          0: {
+              items: 1
+          },
+          576: {
+              items: 2
+          },
+          768: {
+              items: 3
+          },
+          992: {
+              items: 4
+          },
+          1200: {
+              items: 5
+          }
+      }
+  });
+});
+
+// Founder section
+document.addEventListener('DOMContentLoaded', function() {
+  const bioBtn = document.querySelector('.founder-bio-btn');
+  const modal = document.querySelector('.founder-bio-modal');
+  const closeBtn = document.querySelector('.founder-bio-close');
+
+  bioBtn.addEventListener('click', function() {
+      modal.style.display = 'block';
+  });
+
+  closeBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+  });
+
+  window.addEventListener('click', function(event) {
+      if (event.target === modal) {
+          modal.style.display = 'none';
+      }
+  });
+});
