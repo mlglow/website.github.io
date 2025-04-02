@@ -6757,9 +6757,20 @@ h6 {
   max-width: 800px;
 }
 
-.founder-text h2 {
-  color: #343a40;
-  margin-bottom: 1.5rem;
+.founder-text h2.founder-name {
+  color: #343a40; 
+  margin-bottom: 5px; 
+  text-align: center; 
+}
+
+.founder-title { 
+  display: block; 
+  text-align: center; 
+  margin-bottom: 1.5rem; 
+  font-size: 1.6rem; 
+  color: #555; 
+  font-weight: 600; 
+  font-family: inherit; 
 }
 
 .founder-text p {
