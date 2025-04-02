@@ -6657,3 +6657,163 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#journals .section_title {
+  text-align: center !important;   /* Ensure text is centered */
+  display: block;                  /* Ensure block-level display */
+  margin: 0 auto;                  /* Center the block */
+  width: 100%;                     /* Take the full width */
+}
+
+/* Client Logos Section */
+.logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.logo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.logo-item img {
+  max-width: 100%;
+  max-height: 90px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.logo-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* For the trust indicators */
+.trust-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.trust-item {
+  text-align: center;
+  padding: 15px;
+}
+
+.trust-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3092;
+  margin-bottom: 5px;
+}
+
+.trust-label {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .logo-item {
+      height: 100px;
+  }
+  
+  .trust-indicators {
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+
+/* Founder Section */
+.founder-section {
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.founder-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.founder-image {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+.founder-text {
+  text-align: left;
+  max-width: 800px;
+}
+
+.founder-text h2.founder-name {
+  color: #343a40; 
+  margin-bottom: 5px; 
+  text-align: center; 
+}
+
+.founder-title { 
+  display: block; 
+  text-align: center; 
+  margin-bottom: 1.5rem; 
+  font-size: 1.6rem; 
+  color: #555; 
+  font-weight: 600; 
+  font-family: inherit; 
+}
+
+.founder-text p {
+  line-height: 1.7;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.founder-text strong {
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* Publication Section */
+.public-portals-section {
+  background-color: #f8f9fa;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.portal-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.portal-link:hover {
+  transform: translateY(-5px);
+  background-color: #e9ecef;
+}
+
+.portal-icon {
+  max-width: 60px;
+  max-height: 60px;
+  margin-bottom: 8px;
+}
+
+.portal-text {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
