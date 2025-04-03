@@ -6687,14 +6687,12 @@ h6 {
   max-width: 100%;
   max-height: 90px;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.7;
   transition: all 0.3s ease;
 }
 
 .logo-item:hover img {
-  filter: grayscale(0%);
-  opacity: 1;
+  /* Optional: Slight opacity change on hover */
+  opacity: 0.9;
 }
 
 /* For the trust indicators */
@@ -6727,7 +6725,7 @@ h6 {
   .logo-item {
       height: 100px;
   }
-  
+
   .trust-indicators {
       flex-direction: column;
       gap: 20px;
@@ -6736,7 +6734,7 @@ h6 {
 
 /* Founder Section */
 .founder-section {
-  background-color: #f8f9fa;
+  background-color: white; /* or #ffffff */
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -6758,19 +6756,19 @@ h6 {
 }
 
 .founder-text h2.founder-name {
-  color: #343a40; 
-  margin-bottom: 5px; 
-  text-align: center; 
+  color: #343a40;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
-.founder-title { 
-  display: block; 
-  text-align: center; 
-  margin-bottom: 1.5rem; 
-  font-size: 1.6rem; 
-  color: #555; 
-  font-weight: 600; 
-  font-family: inherit; 
+.founder-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: #555;
+  font-weight: 600;
+  font-family: inherit;
 }
 
 .founder-text p {
