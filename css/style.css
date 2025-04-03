@@ -955,7 +955,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin-right: 0px;
+  margin-right: 15px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
